@@ -1,0 +1,141 @@
+/*底部*/
+			footer{
+				width: 100%;
+				min-width: 1200px;
+				background-image: linear-gradient(to bottom,#017bcd 0%,#00b6e0 100%);
+				padding: 40px 0;
+			}
+			.footer-list{
+				float: left;
+				width: 45%;
+				border-right: 1px solid #7fd0ec;
+			}
+			.footer-list>div{
+				float: left;
+				margin-right: 50px;
+			}
+			.footer-list>div ul li{
+				margin-bottom: 10px;
+			}
+			.footer-list>div:nth-child(3) ul:nth-child(2) li:nth-child(1){
+				margin: 20px 0;
+			}
+			.footer-list>div ul li:nth-child(1){
+				margin-bottom: 20px;
+			}
+			.footer-list>div ul li:nth-child(1) a{
+				font-size: 18px;
+			}
+			.footer-list>div ul li a{
+				color: white;
+				font-size: 14px;
+			}
+			
+			/*底部右边*/
+			.footer-right{
+				float: left;
+				color: white;
+				font-size: 14px;
+				margin-left: 40px;
+			}
+			.footer-right a{
+				color: white;
+				font-size: 14px;
+			}
+			.footer-right>p{
+				font-size: 18px;
+				margin-bottom: 20px;
+			}
+			.footer-right ul{
+				float: left;
+			}
+			.footer-right ul:nth-of-type(2){
+				margin: 0 35px;
+			}
+			.footer-right ul:nth-of-type(1) li:nth-child(2) span,.footer-right ul:nth-of-type(1) li:nth-child(3) span{
+				font-size: 18px;
+			}
+			.footer-right ul:nth-of-type(1) li:nth-child(4) a,.footer-right ul:nth-of-type(2) li:nth-child(3) a{
+				display: inline-block;
+				width: 132px;
+				height: 38px;
+				text-align: center;
+				line-height: 38px;
+				border: 1px solid white;
+				border-radius: 5px;
+			}
+			.footer-right ul:nth-of-type(1) li:nth-child(4) a span{
+				display: inline-block;
+				width: 21px;
+				height: 24px;
+				line-height: 38px;
+				background-image: url(../img/icon-custom.png);
+				vertical-align: middle;
+			}
+			.footer-right ul:nth-of-type(2) li:nth-child(3) a span{
+				display: inline-block;
+				width: 23px;
+				height: 18px;
+				line-height: 38px;
+				background-image: url(../img/ico-email.png);
+				vertical-align: middle;
+			}
+			.footer-right ul:nth-of-type(3) li span{
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				border: 1px solid white;
+				/*margin-right: 5px;*/
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(2) span:nth-child(1){
+				background-image: url(../img/ico-sina.png);
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(2) a:nth-child(2)
+			span{
+				background-image: url(../img/ico-wechat.png);
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(2) a:nth-child(3)
+			span{
+				background-image: url(../img/ico-qq.png);
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(2) a:nth-child(4)
+			span{
+				background-image: url(../img/ico-xinsheng.png);
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(3) a:nth-child(1)
+			span{
+				background-image: url(../img/ico-dou.png);
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(3) a:nth-child(2)
+			span{
+				background-image: url(../img/ico-tribal.png);
+			}
+			.footer-right ul:nth-of-type(3) li:nth-of-type(3) a:nth-child(3)
+			span{
+				background-image: url(../img/ico-youku.png);
+			}
+			.footer-right ul li{
+				margin-bottom: 10px;
+			}
+			
+			/*最底部*/
+			.footer{
+				color: #707070;
+				padding: 20px 0;
+			}
+			.footer p{
+				font-size: 14px;
+				margin-bottom: 20px;
+			}
+			.footer p a{
+				color: #707070;
+				font-size: 14px;
+			}
+			.footer span{
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				background-image: url(../img/ghs.png);
+				vertical-align: middle;
+			}

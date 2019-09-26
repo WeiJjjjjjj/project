@@ -1,0 +1,244 @@
+*{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				text-decoration: none;
+				font-family: "微软雅黑";
+			}
+			body{
+				background: #ebebeb;
+			}
+			.style{
+				margin: 0 auto;
+				width: 1200px;
+			}
+			.clearfix{
+				zoom: 1;
+			}
+			.clearfix:after{
+				content: "";
+				display: block;
+				visibility: hidden;
+				height: 0;
+				clear: both;
+			}
+			
+			/*头部*/
+			header{
+				background: #ebebeb;
+				padding: 20px 0;
+			}
+			header>div>span:nth-child(2){
+				padding: 0 20px;
+				color: #333333;
+				font-size: 18px;
+				border-left: 1px solid #ccccd4;
+			}
+			header img{
+				width: 142px;
+				margin-right: 15px;
+			}
+			
+			/*内容部分*/
+			section{
+				background: #081638;
+				width: 100%;
+				min-width: 1200px;
+			}
+			section>div>div{
+				height: 590px;
+				background: url(../img/login/honor-login-kv.png) no-repeat;
+			}
+			.login{
+				background: white;
+				float: right;
+				width: 380px;
+				margin-right: 60px;
+				padding: 20px 30px;
+				box-sizing: border-box;
+				margin-top: 20px;
+			}
+			.login-top{
+				font-size: 0;
+				margin-bottom: 20px;
+			}
+			.login-top a{
+				display: inline-block;
+				font-size: 18px;
+				color: #333333;
+				text-align: center;
+				width: 50%;
+				box-sizing: border-box;
+			}
+			.login-top a:nth-child(1){
+				border-right: 1px solid #CCCCCC;
+			}
+			.form input{
+				display: block;
+				width: 100%;
+				height: 50px;
+				border: none;
+				border-bottom: 1px solid #CCCCCC;
+				outline: none;
+			}
+			.form label{
+				position: relative;
+				padding-left: 25px;
+				margin: 20px 0;
+				display: block;
+			}
+			.form label input{
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				cursor: pointer;
+				vertical-align: middle;
+				/*background: white;*/
+				visibility: hidden;
+				/*margin-right: 40px;*/
+				position: absolute;
+				z-index: 2;
+			}
+			.form label input:checked~i{
+				background: red;
+			}
+			.form label i{
+				width: 16px;
+				height: 16px;
+				display: inline-block;
+				border: 1px solid #CCCCCC;
+				content: "";
+				position: absolute;
+				top: 1px;
+				left: 0;
+				box-sizing: border-box;
+				z-index: 1;
+			}
+			.form label{
+				font-size: 12px;
+				cursor: pointer;
+			}
+			::placeholder{
+				color: #CCCCCC;
+			}
+			::-ms-input-placeholder{
+				color: #CCCCCC;
+			}
+			.form input:nth-last-of-type(1){
+				height: 40px;
+				border-radius: 20px;
+				background: #1aa8d5;
+				text-align: center;
+				color: white;
+				font-size: 14px;
+				font-weight: bold;
+				cursor: pointer;
+				margin-bottom: 20px;
+			}
+			.form>div:nth-of-type(1){
+				margin-bottom: 20px;
+			}
+			.form>div:nth-of-type(1) a{
+				float: right;
+				font-size: 12px;
+				color: #007dff;
+			}
+			.forget{
+				text-align: center;
+			}
+			.forget a{
+				color: #007dff;
+				padding: 0 10px;
+				font-size: 12px;
+			}
+			.forget a:nth-child(1){
+				border-right: 1px solid #CCCCCC;
+			}
+			.icon{
+				margin-top: 120px;
+				position: relative;
+			}
+			.icon p{
+				color: #CCCCCC;
+				font-size: 12px;
+				width: 140px;
+				text-align: center;
+				line-height: 12px;
+				background: white;
+				top: -7px;
+				left: 90px;
+				position: absolute;
+			}
+			.icon>span{
+				display: block;
+				width: 100%;
+				height: 2px;
+				background-image: linear-gradient(to right,white 0%,#bbbbbb 50%,white 100%);
+				/*position: relative;*/
+			}
+			.icon>div{
+				text-align: center;
+				margin-top: 20px;
+				font-size: 0;
+			}
+			.icon>div a,.icon>div span{
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				font-size: 0;
+			}
+			.icon>div a{
+				margin-right: 20px;
+			}
+			.icon>div a:nth-child(4){
+				margin-right: 0px;
+			}
+			.icon>div a:nth-child(1) span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -74px -11px;
+			}
+			.icon>div a:nth-child(1):hover span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -74px -57px;
+			}
+			.icon>div a:nth-child(2) span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -15px -155px;
+			}
+			.icon>div a:nth-child(2):hover span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -15px -109px;
+			}
+			.icon>div a:nth-child(3) span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -134px -11px;
+			}
+			.icon>div a:nth-child(3):hover span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -134px -57px;
+			}
+			.icon>div a:nth-child(4) span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -14px -11px;
+			}
+			.icon>div a:nth-child(4):hover span{
+				background-image: url(../img/login/third_login.png);
+				background-position: -14px -57px;
+			}
+			
+			/*底部*/
+			footer{
+				padding-top: 20px;
+			}
+			footer p{
+				margin-top: 10px;
+			}
+			footer p,footer p a{
+				color: #929292;
+				text-align: center;
+				font-size: 12px;
+			}
+			footer p a{
+				margin: 0 10px;
+			}

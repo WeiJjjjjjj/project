@@ -1,0 +1,131 @@
+/*banner部分*/
+			.banner{
+				margin-top: 92px;
+				height: 600px;
+				position: relative;
+			}
+			.banner img{
+				position: absolute;
+			}
+			.left{
+				display: inline-block;
+				width: 42px;
+				height: 42px;
+				background: rgba(0,0,0,0.1);
+				background-image: url(../img/icon-arrow-left.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				position: absolute;
+				top: 279px;
+				left: 40px;
+				cursor: pointer;
+			}
+			.right{
+				display: inline-block;
+				width: 42px;
+				height: 42px;
+				background: rgba(0,0,0,0.1);
+				background-image: url(../img/icon-arrow-right.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				position: absolute;
+				top: 279px;
+				cursor: pointer;
+				right: 40px;
+			}
+			.rongyao{
+				display: flex;
+				justify-content: space-between;
+				margin-top: 20px;
+			}
+			.rongyao div{
+				width: 286px;
+			}
+			.rongyao div img{
+				vertical-align: middle;
+			}
+			.rongyao div:hover{
+				box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+				position: relative;
+				top: -3px;
+				right: -3px;
+			}
+			
+			/*手机/平板*/
+			.morephone{
+				line-height: 80px;
+			}
+			.morephone p:nth-child(1){
+				font-size: 20px;
+				padding-left: 10px;
+				float: left;
+				border-left: 4px solid #00b5e2;
+				display: inline-block;
+				line-height: 20px;
+				margin-top: 30px;
+			}
+			.morephone p:nth-child(2){
+				float: right;
+				color: #999999;
+				font-size: 14px;
+			}
+			.More{
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 20px;
+			}
+			.More>div{
+				width: 285px;
+				height: 370px;
+				background: white;
+				text-align: center;
+				padding: 30px 0px;
+				box-sizing: border-box;
+			}
+			.More>div:hover{
+				box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+				position: relative;
+				top: -3px;
+				right: -3px;
+			}
+			.More>div p:nth-of-type(1){
+				font-size: 18px;
+				color: #333333;
+				line-height: 32px;
+			}
+			.More>div p:nth-of-type(2){
+				font-size: 15px;
+				color: #999999;
+			}
+			.More>div img{
+				margin: 20px 0;
+			}
+			.recommended .More:nth-of-type(1)>div:nth-of-type(1){
+				padding:0;
+			}
+			.recommended .More:nth-of-type(1)>div:nth-of-type(1) img{
+				margin:0;
+			}
+			.More>div>div a:nth-child(1){
+				display: inline-block;
+				width: 110px;
+				height: 32px;
+				line-height: 32px;
+				color: white;
+				background: #e5004f;
+				border-radius: 5px;
+				text-align: center;
+				border: 1px solid #e5004f;
+				margin-right: 10px;
+			}
+			.More>div>div a:nth-child(2){
+				display: inline-block;
+				width: 110px;
+				height: 32px;
+				line-height: 32px;
+				color: #707086;
+				background: white;
+				border-radius: 5px;
+				text-align: center;
+				border: 1px solid #707086;
+			}

@@ -1,0 +1,136 @@
+*{
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				list-style: none;
+				font-family: "微软雅黑";
+			}
+			body{
+				background: #f6f6f6;
+			}
+			.style{
+				width: 1200px;
+				margin: 0 auto;
+			}
+			.clearfix{
+				zoom: 1;
+			}
+			.clearfix:after{
+				content: "";
+				display: block;
+				height: 0;
+				clear: both;
+				visibility: hidden;
+			}
+			
+			/*头部部分*/
+			.bg{
+				background-image: url(../img/topbar-bg.gif);
+				min-width: 1200px;
+			}
+			header{
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 3;
+				height: 90px;
+			}
+			.header-top{
+				float: right;
+				padding: 4px 0;
+			}
+			.header{
+				overflow: hidden;
+			}
+			.header-top a{
+				color: white;
+				font-size: 14px;
+				margin-right: 10px;
+			}
+			.header-top a:nth-child(3){
+				margin-right: 40px;
+			}
+			.header-top a:nth-child(4){
+				margin-right: 0px;
+			}
+			.header-top a span{
+				display: inline-block;
+				height: 18px;
+				width: 14px;
+				background-image: url(../img/people.jpg);
+				vertical-align: middle;
+			}
+			
+			/*导航*/
+			.nav{
+				box-shadow: 0 2px 8px 0px rgba(0,0,0,0.2);
+				background: white;
+			}
+			.nav .style form a{
+				display: inline-block;
+			}
+			.nav .style form{
+				font-size: 0;
+			}
+			.nav a{
+				padding-left:30px;
+				padding-right:30px;
+				line-height: 60px;
+				box-sizing: border-box;
+				font-size: 16px;
+			}
+			.nav a:nth-of-type(1){
+				padding-left:0px;
+			}
+			.nav .style form a:not(:nth-of-type(1)):not(:nth-of-type(9)):hover{
+				border-bottom: 2px solid #19bae5;
+			}
+			.nav a:nth-last-of-type(1){
+				width: 282px;
+				height: 32px;
+				border: 1px solid #999999;
+				border-radius: 15px;
+				padding: 0;
+				float: right;
+				/*vertical-align: middle;*/
+				margin-top: 15px;
+				position: relative;
+			}
+			.nav a:nth-last-of-type(1) input{
+				float: left;
+			}
+			.nav input:nth-of-type(1){
+				/*visibility: hidden;*/
+				width: 240px;
+				height: 30px;
+				border: none;
+				border-radius: 15px 0 0 15px;
+				outline: none;
+				padding-left: 20px;
+				box-sizing: border-box;
+			}
+			.nav input:nth-of-type(2){
+				visibility: hidden;
+				display: inline-block;
+				width: 40px;
+				height: 30px;
+				line-height: 60px;
+				vertical-align: middle;
+				border: none;
+				border-radius: 0 15px 15px 0;
+				
+			}
+			.nav a:nth-last-of-type(1) span{
+				display: inline-block;
+				width: 40px;
+				height: 30px;
+				background-image: url(../img/icon-search-30.png);
+				background-repeat: no-repeat;
+				background-size: 60%;
+				background-position: center;
+				position: absolute;
+				border-radius: 0 15px 15px 0;
+				top: 0;
+				right: 0;
+				z-index: 1;
+			}
